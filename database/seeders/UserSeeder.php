@@ -22,6 +22,7 @@ class UserSeeder extends Seeder
         $user->email = "evgeny.solovev@gmail.com";
         $user->phone = "+79217767600";
         $user->trainer_id = 2;
+        $user->save();
 
         $user = new User();
         $user->is_admin = 1;
@@ -31,6 +32,7 @@ class UserSeeder extends Seeder
         $user->email = "alex.nau@gmail.com";
         $user->phone = "+79211231313";
         $user->trainer_id = 2;
+        $user->save();
 
         $user = new User();
         $user->is_admin = 0;
@@ -40,7 +42,7 @@ class UserSeeder extends Seeder
         $user->email = "xenia.iv@gmail.com";
         $user->phone = "+79211231414";
         $user->trainer_id = 2;
-
+        $user->save();
 
 
     }
