@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title')->fillable();
             $table->text('description');
-            $table->date('data');
+            $table->date('date');
             $table->timestamps();
         });
     }
