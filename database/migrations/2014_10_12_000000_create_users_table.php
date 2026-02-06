@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phone')->unique();
+            $table->integer('trainer_id');
 
             // $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
